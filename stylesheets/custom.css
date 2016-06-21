@@ -96,6 +96,14 @@
     color: #2967fd;
   }
 
+  .send {
+    width: 100% !important;
+  }
+
+  .faq {
+    text-align: left;
+  }
+
   .section {
     padding: 12rem 0 11rem;
   }
@@ -185,7 +193,7 @@
   }
 
   .footer {
-    display: none;
+    text-align:center;
   }
 
 }
@@ -308,4 +316,24 @@
 .questions {
     color: #2967fd;
     font-weight: 500;
+}
+
+.hourSection {
+  padding: 0;
+}
+
+.sendEmail {
+  text-align: left;
+}
+
+.send {
+  width: 100% !important;
+}
+
+.faq {
+  text-align: left;
+}
+
+.warning {
+  color: red;
 }

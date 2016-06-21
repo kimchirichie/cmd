@@ -47,6 +47,14 @@
     width: 85%;
     padding: 0; }
 
+  .send {
+    width: 100%;
+  }
+
+  .faq {
+    text-align: left;
+  }
+
 
   .hours {
     color: #2967fd;
