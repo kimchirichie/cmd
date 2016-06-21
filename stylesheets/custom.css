@@ -7,6 +7,7 @@
 .section {
   padding: 8rem 0 7rem;
   text-align: center;
+  background: #ECF9FF;
 }
 .section-heading,
 .section-description {
@@ -19,7 +20,7 @@
 }
 .phone {
   position: relative;
-  max-width: 80%;
+  max-width: 100%;
   margin: 3rem auto -12rem;
 }
 .phone + .phone {
@@ -28,7 +29,7 @@
 
 /* Values */
 .values {
-  background-image: url('/images/values-bg.jpg');
+  background-image: url('/images/medical_background.jpg');
   background-size: cover;
   color: #fff;
   padding-bottom: 5rem;
@@ -43,6 +44,7 @@
 .value-description {
   opacity: .8;
   font-weight: 300;
+  font-size: 20px;
 }
 
 /* Help */
@@ -53,9 +55,9 @@
 
 /* Categories */
 .categories {
-  background-image: url('/images/values-bg.jpg');
+  background-image: url('/images/medical_background.jpg');
   background-size: cover;
-  color: #fff;
+  color: black;
 }
 .categories .section-description { 
   margin-bottom: 4rem;
@@ -74,6 +76,7 @@
     padding-bottom: 12rem;
     text-align: left;
     height: 165px;
+    background: #ECF9FF;
   }
   .phone {
     position: absolute;
@@ -110,7 +113,6 @@
     padding: 16rem 0 14rem;
   }
   .section-description {
-    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -264,6 +266,17 @@
 }
 
 .hours {
-  color: blue;
+  color: #2967fd;
   margin-top: 20px;
 }
+
+.basicDes {
+  color: black;
+  font-weight: bold:
+  font-size: 20px;
+}
+
+.logo {
+  width: 80%;
+}
+
