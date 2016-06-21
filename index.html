@@ -40,10 +40,9 @@
   <nav class="navbar">
     <div class="container align-middle">
       <ul class="navbar-list">
-        <li class="navbar-item"><a class="navbar-link" href="#Home">Home</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="#About">About Us</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="#FAQ">FAQ</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="#Contact">Contact Us</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="#about">About Us</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="#faq">FAQ</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="#contact">Contact Us</a></li>
       </ul>
     </div>
   </nav>
@@ -84,60 +83,61 @@
     </div>
   </div>
 
-  <div class="section get-help">
+  <div class="section get-help" style="padding-top:0px">
     <div class="container">
       <img class="u-max-full-width" src="/images/home-visit.jpg">
-      <h2 class="hours">clickMD Hours</h2>
-      <table class="u-full-width">
+      <table class="u-full-width hours-table">
           <thead>
             <tr>
-              <th>Sunday</th>
-              <th>Monday</th>
-              <th>Tuesday</th>
-              <th>Wednesday</th>
-              <th>Thursday</th>
-              <th>Friday</th>
-              <th>Saturday</th>
+              <th>Sun.</th>
+              <th>Mon.</th>
+              <th>Tues.</th>
+              <th>Wed.</th>
+              <th>Thur.</th>
+              <th>Fri.</th>
+              <th>Sat.</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>9am - 5pm</td>
-              <td>10am - 8pm</td>
-              <td>10am - 8pm</td>
-              <td>10am - 8pm</td>
-              <td>10am - 8pm</td>
-              <td>9am - 5pm</td>
-              <td>9am - 5pm</td>
+              <td>9 - 5</td>
+              <td>10 - 8</td>
+              <td>10 - 8</td>
+              <td>10 - 8</td>
+              <td>10 - 8</td>
+              <td>9 - 5</td>
+              <td>9 - 5</td>
             </tr>
           </tbody>
         </table>
     </div>
   </div>
 
-  <div class="section categories">
+  <div class="section categories" id="contact">
     <div class="container">
-      <h3 class="section-heading">Responsive Images</h3>
-      <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
-      <div class="row">
-        <div class="one-half column category">
-          <img class="u-max-full-width" src="/images/placeholder.png">
-        </div>
-        <div class="one-half column category">
-          <img class="u-max-full-width" src="/images/placeholder.png">
-        </div>
-      </div>
+      
+      <form action="/contact" method="post">
+        <label>Your Name (required)</label><br>
+        <input type="text" name="name"/>
+        
+        <label>Your Email (required)</label><br>
+        <input type="email" name="email"/>
+        
+        <label>Subject</label><br>
+        <input type="text" name="subject" />
+
+        <label>Your Message</label><br>
+        <textarea name="message"></textarea>
+        
+        <input type="submit" value="Send" />
+      </form>
+
+
     </div>
   </div>
   
   <div class="footer">
     <ul class="footer-list">
-      <li class="footer-item">
-        <a class="footer-link" href="#Profile">Home</a>
-      </li>
-      <li class="footer-item">
-        <a class="footer-link" href="#Experience">See a Doctor</a>
-      </li>
       <li class="footer-item">
         <a class="footer-link" href="#Projects-and-Achievements">About Us</a>
       </li>
@@ -148,8 +148,11 @@
         <a class="footer-link" href="#Projects-and-Achievements">Contact Us</a>
       </li>
     </ul>
-    <h6><b>2016 &copy; clickMD. All rights reserved</b></h6>
-    <span>clickMD uses a secure video conferencing platform that is PHIPA (Personal Health Information Protection Act)-compliant. All medical information is stored in an approved and secure electronic medical record system only. No personal information will be shared. Medical information will only be accessed as part of the provision of medical services to patients and/or their legal guardians.</span>
+    <h6><b>&copy; 2015 clickMD. All rights reserved</b></h6>
+    <div class="container">
+      <span class="disclaimer">clickMD uses a secure video conferencing platform that is PHIPA (Personal Health Information Protection Act)-compliant. All medical information is stored in an approved and secure electronic medical record system only. No personal information will be shared. Medical information will only be accessed as part of the provision of medical services to patients and/or their legal guardians.</span>
+    </div>
+    <br>
   </div>
 
 
