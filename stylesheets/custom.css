@@ -7,6 +7,7 @@
 .section {
   padding: 8rem 0 7rem;
   text-align: center;
+  background: #ECF9FF;
 }
 .section-heading,
 .section-description {
@@ -19,7 +20,7 @@
 }
 .phone {
   position: relative;
-  max-width: 80%;
+  max-width: 100%;
   margin: 3rem auto -12rem;
 }
 .phone + .phone {
@@ -28,9 +29,9 @@
 
 /* Values */
 .values {
-  background-image: url('/images/values-bg.jpg');
+  background-image: url('/images/medical_background.jpg');
   background-size: cover;
-  color: #fff;
+  color: black;
   padding-bottom: 5rem;
 }
 .value-multiplier {
@@ -43,6 +44,7 @@
 .value-description {
   opacity: .8;
   font-weight: 300;
+  font-size: 20px;
 }
 
 /* Help */
@@ -53,9 +55,9 @@
 
 /* Categories */
 .categories {
-  background-image: url('/images/values-bg.jpg');
+  background-image: url('/images/medical_background.jpg');
   background-size: cover;
-  color: #fff;
+  color: black;
 }
 .categories .section-description { 
   margin-bottom: 4rem;
@@ -85,6 +87,15 @@
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
+
+  .hours {
+    color: #2967fd;
+  }
+
+  .questions {
+    color: #2967fd;
+  }
+
   .section {
     padding: 12rem 0 11rem;
   }
@@ -92,6 +103,7 @@
     padding-bottom: 12rem;
     text-align: left;
     height: 165px;
+    background: #ECF9FF;
   }
   .phone {
     position: absolute;
@@ -99,14 +111,6 @@
     right: 3rem;
     max-height: 362px;
     z-index: 3;
-  }
-  .phone + .phone {
-    top: -6rem;
-    display: block;
-    max-width: 73.8%;
-    right: 0;
-    z-index: 2;
-    max-height: 338px;
   }
   .hero-heading {
     font-size: 2.4rem;
@@ -128,7 +132,6 @@
     padding: 16rem 0 14rem;
   }
   .section-description {
-    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -175,6 +178,10 @@
 @media (max-width: 750px){
   .navbar-list {
     display: none;
+  }
+
+  .logo {
+    width: 100%;
   }
 
   .footer {
@@ -282,6 +289,23 @@
 }
 
 .hours {
-  color: blue;
+  color: #2967fd;
   margin-top: 20px;
+}
+
+.basicDes {
+  color: black;
+  font-weight: bold:
+  font-size: 20px;
+}
+
+.logo {
+  width: 80%;
+  position: relative;
+  right: 50px;
+}
+
+.questions {
+    color: #2967fd;
+    font-weight: 500;
 }

@@ -46,6 +46,16 @@
   .container {
     width: 85%;
     padding: 0; }
+
+
+  .hours {
+    color: #2967fd;
+  }
+
+  .questions {
+    color: #2967fd;
+  }
+  
 }
 
 /* For devices larger than 550px */
