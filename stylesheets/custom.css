@@ -31,7 +31,7 @@
 .values {
   background-image: url('/images/medical_background.jpg');
   background-size: cover;
-  color: #fff;
+  color: black;
   padding-bottom: 5rem;
 }
 .value-multiplier {
@@ -69,6 +69,15 @@
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
+
+  .hours {
+    color: #2967fd;
+  }
+
+  .questions {
+    color: #2967fd;
+  }
+
   .section {
     padding: 12rem 0 11rem;
   }
@@ -84,14 +93,6 @@
     right: 3rem;
     max-height: 362px;
     z-index: 3;
-  }
-  .phone + .phone {
-    top: -6rem;
-    display: block;
-    max-width: 73.8%;
-    right: 0;
-    z-index: 2;
-    max-height: 338px;
   }
   .hero-heading {
     font-size: 2.4rem;
@@ -159,6 +160,10 @@
 @media (max-width: 750px){
   .navbar-list {
     display: none;
+  }
+
+  .logo {
+    width: 100%;
   }
 
   .footer {
@@ -278,5 +283,11 @@
 
 .logo {
   width: 80%;
+  position: relative;
+  right: 50px;
 }
 
+.questions {
+    color: #2967fd;
+    font-weight: 500;
+}
