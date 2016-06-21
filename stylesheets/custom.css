@@ -1,11 +1,9 @@
-/* Shared
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Shared */
 .button {
   border-radius: 100px;
 }
 
-/* Sections
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Sections */
 .section {
   padding: 8rem 0 7rem;
   text-align: center;
@@ -15,8 +13,7 @@
   margin-bottom: 1.2rem;
 }
 
-/* Hero
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Hero */
 .phones {
   position: relative;
 }
@@ -29,10 +26,9 @@
   display: none;
 }
 
-/* Values
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Values */
 .values {
-  background-image: url('/stylesheets/Skeleton-2.0.4/images/values-bg.jpg');
+  background-image: url('/images/values-bg.jpg');
   background-size: cover;
   color: #fff;
   padding-bottom: 5rem;
@@ -49,22 +45,24 @@
   font-weight: 300;
 }
 
-/* Help
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Help */
 .get-help {
   border-bottom: 1px solid #ddd;
   background: #F7F8F3;
 }
 
-/* Categories
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Categories */
 .categories {
-  background-image: url('/stylesheets/Skeleton-2.0.4/images/values-bg.jpg');
+  background-image: url('/images/values-bg.jpg');
   background-size: cover;
   color: #fff;
 }
 .categories .section-description { 
   margin-bottom: 4rem;
+}
+
+.circle-vp{
+  max-width: 100px;
 }
 
 /* Bigger than 550 */
