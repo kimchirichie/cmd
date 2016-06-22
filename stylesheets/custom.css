@@ -89,11 +89,11 @@
 @media (min-width: 550px) {
 
   .hours {
-    color: #2967fd;
+    color: #2090e6;
   }
 
   .questions {
-    color: #2967fd;
+    color: #2090e6;
   }
 
   .send {
@@ -297,7 +297,7 @@
 }
 
 .hours {
-  color: #2967fd;
+  color: #2090e6;
   margin-top: 20px;
 }
 
@@ -314,7 +314,7 @@
 }
 
 .questions {
-    color: #2967fd;
+    color: #2090e6;
     font-weight: 500;
 }
 
