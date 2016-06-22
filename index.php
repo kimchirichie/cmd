@@ -1,62 +1,26 @@
+<!DOCTYPE html>
 <html lang="en"><head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>ClickMD</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="/stylesheets/Skeleton-2.0.4/css/normalize.css">
-  <link rel="stylesheet" href="/stylesheets/Skeleton-2.0.4/css/skeleton.css">
-  <link rel="stylesheet" href="/stylesheets/custom.css">
-  <link rel="stylesheet" href="/stylesheets/main.css">
-  <link rel="stylesheet" href="/stylesheets/animate.css">
-
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="/images/favicon.png">
-
+  <?php include "modules/header.php"; ?>
+  <script src="/javascript/scroll-fade-in-index.js"></script>
+  <script src="/javascript/faq.js"></script>
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <nav class="navbar">
-    <div class="container align-middle">
-      <ul class="navbar-list">
-        <li class="navbar-item"><a class="navbar-link" href="/about.html">About Us</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="/faq.html">FAQ</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="/contact.html">Contact Us</a></li>
-      </ul>
-    </div>
-  </nav>
+  <?php include "modules/navbar.php"; ?>
 
-  <div class="section hero animated fadeInDown">
+  <div class="section hero">
     <div class="container top">
       <div class="row">
         <div class="two-thirds column animated fadeInLeft">
           <img class="logo" src="/images/logo.png"/>
           <h4 class="hero-heading">Quick and Convenient Access to Licensed Physicians, in Your Pocket</h4>
-          <a class="button button-primary" href="/doctor-visit.html">See a Doctor</a>
+          <a class="button button-primary" href="/seeDoctor.php">See a Doctor</a>
         </div>
         <div class="one-third column phones">
-          <img class="phone" src="/images/iphone.png">
+          <img class="phone animated slideInUp" src="/images/iphone.png">
         </div>
       </div>
     </div>
@@ -64,7 +28,7 @@
 
   <div class="section values">
     <div class="container">
-      <div class="row basicDes">
+      <div class="row basicDes hideme">
         <div class="one-third column value">
           <img class="circle-vp" src="/images/time.png">
           <h5 class="value-heading">Save Time</h5>
@@ -84,11 +48,11 @@
     </div>
   </div>
 
-  <div class="section get-help hourSection">
+  <div class="section get-help hour-section">
     <div class="container">
-      <img class="u-max-full-width" src="/images/home-visit.jpg">
+      <img class="u-max-full-width hideme" src="/images/home-visit.jpg">
       <h3 class="hours">clickMD Hours</h3>
-      <table class="u-full-width hours-table">
+      <table class="u-full-width hours-table hideme">
           <thead>
             <tr>
               <th>Sun.</th>
@@ -114,8 +78,25 @@
         </table>
     </div>
   </div>
+
+  <div class="section faq">
+    <div class="container">
+      <h1>FAQ:</h1>
+      <a class="button button-primary" href="/faq.php">See FAQ</a>
+      <h2 id="faq-question"></h2>
+      <p id="faq-answer"></p>
+    </div>
+  </div>
   
   <div class="footer">
+    <div class="container align-middle">
+      <ul class="navbar-list">
+        <li class="navbar-item"><a class="navbar-link" href="/">Home</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="/about.html">About Us</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="/faq.html">FAQ</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="/contact.html">Contact Us</a></li>
+      </ul>
+    </div>
     <h6><b>&copy; 2015 clickMD. All rights reserved</b></h6>
     <div class="container">
       <span class="disclaimer">clickMD uses a secure video conferencing platform that is PHIPA (Personal Health Information Protection Act)-compliant. All medical information is stored in an approved and secure electronic medical record system only. No personal information will be shared. Medical information will only be accessed as part of the provision of medical services to patients and/or their legal guardians.</span>
@@ -123,7 +104,7 @@
     <br>
   </div>
 
-
+<?php include('modules/footer.php'); ?>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

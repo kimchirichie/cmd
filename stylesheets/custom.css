@@ -82,9 +82,24 @@
 
 .disclaimer{
   font-size: 10px;
-
 }
 
+.hideme {
+    opacity:0;
+}
+
+.footer{
+  color: white;
+  background-color:#69C9E4;  
+}
+
+.footer a {
+  color: white;
+}
+
+html{
+  background-color:#69C9E4;  
+}
 /* Bigger than 550 */
 @media (min-width: 550px) {
 
@@ -318,7 +333,7 @@
     font-weight: 500;
 }
 
-.hourSection {
+.hour-section {
   padding: 0;
 }
 
@@ -334,6 +349,20 @@
   text-align: left;
 }
 
+
+.faq-page{
+  text-align: center;
+
+}
+.faq-page .logo {
+  right: 0;
+}
+
 .warning {
   color: red;
+}
+
+.abouts{
+  background-color: white;
+  border-radius: 5px;
 }
