@@ -7,7 +7,7 @@
     <?php include "modules/navbar.php"; ?>
 
     <div class="section">
-        <div class="container">
+        <div class="container animated fadeIn">
 
           <form action="/contact" method="post" class="sendEmail">
 
@@ -42,7 +42,10 @@
             </div>
             
              <div class="row">
-              <div class="three columns">
+             <div class="six columns cancel">
+                <a class="button button-primary cancelBtn" href="/index.php">Cancel</a>
+              </div>
+              <div class="six columns sendBtn">
                 <input class="button-primary" type="submit" value="Send"/>
               </div>
             </div>

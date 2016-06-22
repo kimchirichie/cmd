@@ -27,7 +27,7 @@
             <h3 class="warning">IMPORTANT!</h3>
             <p>You need to be in a private setting to access care through clickMD. Our physicians will not be able to provide you with care if there is reason to believe that confidentiality cannot be maintained. You cannot waive you right to confidentiality.</p>
 
-            <a class="seeDoc button button-primary" href="/seeForm.php">I agree, Let's see a doctor</a>
+            <a class="seeDoc button button-primary" href="/contact.php">Contact Us</a>
 
         </div>
     </div>
