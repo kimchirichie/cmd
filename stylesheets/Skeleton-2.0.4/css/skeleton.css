@@ -47,13 +47,25 @@
     width: 85%;
     padding: 0; }
 
+  .send {
+    width: 100%;
+  }
+
+  .faq {
+    text-align: left;
+  }
+
+  .warning {
+    color: red;
+  }
+
 
   .hours {
-    color: #2967fd;
+    color: #2090e6;
   }
 
   .questions {
-    color: #2967fd;
+    color: #2090e6;
   }
   
 }

@@ -89,11 +89,19 @@
 @media (min-width: 550px) {
 
   .hours {
-    color: #2967fd;
+    color: #2090e6;
   }
 
   .questions {
-    color: #2967fd;
+    color: #2090e6;
+  }
+
+  .send {
+    width: 100% !important;
+  }
+
+  .faq {
+    text-align: left;
   }
 
   .section {
@@ -185,7 +193,7 @@
   }
 
   .footer {
-    display: none;
+    text-align:center;
   }
 
 }
@@ -289,7 +297,7 @@
 }
 
 .hours {
-  color: #2967fd;
+  color: #2090e6;
   margin-top: 20px;
 }
 
@@ -306,6 +314,26 @@
 }
 
 .questions {
-    color: #2967fd;
+    color: #2090e6;
     font-weight: 500;
+}
+
+.hourSection {
+  padding: 0;
+}
+
+.sendEmail {
+  text-align: left;
+}
+
+.send {
+  width: 100% !important;
+}
+
+.faq {
+  text-align: left;
+}
+
+.warning {
+  color: red;
 }
