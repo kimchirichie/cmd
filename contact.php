@@ -9,7 +9,7 @@
     <div class="section">
         <div class="container">
 
-          <form action="/contact" method="post" class="sendEmail">
+          <form action="/emailer.php" method="post" class="sendEmail">
 
             <h2>Contact Us</h2>
 

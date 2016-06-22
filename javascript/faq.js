@@ -34,7 +34,6 @@ $(document).ready(function(){
 });
 
 function myTimer() {
-	console.log('time');
     $('#faq-question').fadeOut(function(){
     	$('#faq-question').html('Q: ' + faqs[i%faqs.length].question);    	
     });

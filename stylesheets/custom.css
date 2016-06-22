@@ -366,3 +366,7 @@ html{
   background-color: white;
   border-radius: 5px;
 }
+
+.sweet-alert button {
+  padding: 0 30px !important;
+}
