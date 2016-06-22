@@ -253,6 +253,12 @@ html{
   .has-docked-nav .navbar > .container {
     width: 80%; }
 
+ img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
 .hours {
   color: #2090e6;
   margin-top: 20px;
@@ -265,9 +271,8 @@ html{
 }
 
 .logo {
-  width: 80%;
+  width: 100%;
   position: relative;
-  right: 50px;
 }
 
 .questions {
@@ -344,14 +349,10 @@ html{
   margin: 0 10px 0 10px;
 }
 
-  .logo {
-    width: 100%;
-  }
-
-  .footer {
-    text-align:center;
-    padding: 20px;
-  }
+.footer {
+  text-align:center;
+  padding: 20px;
+}
 
 }
 
