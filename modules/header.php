@@ -5,6 +5,12 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
+<meta property="og:title" content="ClickMD">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.clickmd.ca/">
+<meta property="og:image" content="http://www.clickmd.ca/images/logo.png">
+<meta property="og:description" content="Your health, just a click away!">
+
 <!-- Mobile Specific Metas
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,4 +32,4 @@
 
 <!-- Favicon
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<link rel="icon" type="image/png" href="/images/favicon.png">
+<link rel="icon" type="image/png" href="/images/favicon.ico">

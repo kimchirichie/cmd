@@ -3,6 +3,9 @@
   <?php include "modules/header.php"; ?>
   <script src="/javascript/scroll-fade-in-index.js"></script>
   <script src="/javascript/faq.js"></script>
+  <script src="/javascript/email.js"></script>
+  <script src="/javascript/sweetalert-master/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/javascript/sweetalert-master/dist/sweetalert.css">
 </head>
 <body>
 
