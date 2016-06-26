@@ -26,6 +26,7 @@
     </div>
   </div>
 
+
   <div class="section values">
     <div class="container">
       <div class="row basicDes hideme">
@@ -48,34 +49,21 @@
     </div>
   </div>
 
-  <div class="section get-help hour-section">
+  <div class="section">
     <div class="container">
-      <img class="u-max-full-width hideme" src="/images/home-visit.jpg">
-      <h3 class="hours">clickMD Hours</h3>
-      <table class="u-full-width hours-table hideme">
-          <thead>
-            <tr>
-              <th>Sun.</th>
-              <th>Mon.</th>
-              <th>Tues.</th>
-              <th>Wed.</th>
-              <th>Thur.</th>
-              <th>Fri.</th>
-              <th>Sat.</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>9 - 5</td>
-              <td>10 - 8</td>
-              <td>10 - 8</td>
-              <td>10 - 8</td>
-              <td>10 - 8</td>
-              <td>9 - 5</td>
-              <td>9 - 5</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="row">
+      <div class="one-half column">
+        <h2>Lorem ipsom</h2>
+        <p>
+          Lorem ipsom 
+          Lorem ipsom 
+          Lorem ipsom 
+        </p>
+      </div>
+      
+      <div class="one-half column">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gnmpUXM3-Rs" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 
@@ -87,7 +75,17 @@
       <a class="button button-primary" href="/faq.php">See FAQ</a>
     </div>
   </div>
-  
+
+  <div class="app">
+    <a href="http://app.appsflyer.com/id591981144?pid=SmartBanner&amp;c=mobileweb">
+      <img class="img-responsive" src="/images/apple.png">
+    </a>
+    <a href="http://app.appsflyer.com/com.doctorondemand.android.patient?pid=SmartBanner&amp;c=MobileWeb">
+      <img class="img-responsive" src="/images/google.png">
+    </a>
+  </div>
+
+                
 <?php include('modules/footer.php'); ?>
 
 <!-- End Document

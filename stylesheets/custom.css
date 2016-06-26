@@ -539,3 +539,8 @@ html{
 .cancelBtn:hover {
   background: rgba(255, 0, 0, 1) none repeat scroll 0% 0% !important;
 }
+
+.app img{
+  width: 180px;
+
+}
