@@ -8,6 +8,7 @@
 
 		<div class="section categories">
 		    <div class="container abouts">
+		    	<img class="home-slide animated slideInDown" src="/images/home-slide-4.jpg"/>
 				<h1 class="section-heading">About Us</h1>
 
 			    <p class="section-description">

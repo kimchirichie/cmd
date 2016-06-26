@@ -32,4 +32,4 @@
 
 <!-- Favicon
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<link rel="icon" type="image/png" href="/images/favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico" />
