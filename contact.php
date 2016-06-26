@@ -14,14 +14,11 @@
             <h2>Contact Us</h2>
 
             <div class="row">
-              <div class="twelve columns">
+              <div class="six columns">
                 <label>Your Name (required):</label><br>
                 <input class="send" type="text" name="name"/>
               </div>
-            </div>
-
-            <div class="row">
-              <div class="twelve columns">
+              <div class="six columns">
                 <label>Your Email (required):</label><br>
                 <input class="send" type="email" name="email"/>
               </div>

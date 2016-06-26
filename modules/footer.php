@@ -1,60 +1,38 @@
 <div class="footer">
-<!--   <div class="container align-middle">
-    <ul class="navbar-list">
-      <li class="navbar-item"><a class="navbar-link" href="/">Home</a></li>
-      <li class="navbar-item"><a class="navbar-link" href="/about.php">About Us</a></li>
-      <li class="navbar-item"><a class="navbar-link" href="/faq.php">FAQ</a></li>
-      <li class="navbar-item"><a class="navbar-link" href="/contact.php">Contact Us</a></li>
-    </ul>
-  </div> -->
   <div class="container">
-    <div class="row">
+    <div class="row footer-items">
 
       <div class="three columns">
-        <h4>BLAH</h4>
+        <h4>Site</h4>
         <ul>
-          <li>hello</li>
-          <li>world</li>
-          <li>hello</li>
-          <li>world</li>
-          <li>hello</li>
-          <li>world</li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.php">About</a></li>
+          <li><a href="/faq.php">FAQ</a></li>
+          <li><a href="/contact.php">Contact</a></li>
         </ul>
       </div>
 
       <div class="three columns">
-        <h4>BLAH</h4>
+        <h4>Legals</h4>
         <ul>
-          <li>hello</li>
-          <li>world</li>
-          <li>hello</li>
-          <li>world</li>
-          <li>hello</li>
-          <li>world</li>
+          <li><a href="/">Terms</a></li>
+          <li><a href="/">Conditions</a></li>
         </ul>
       </div>
 
       <div class="three columns">
-        <h4>BLAH</h4>
+        <h4>Hours</h4>
         <ul>
-          <li>hello</li>
-          <li>world</li>
-          <li>hello</li>
-          <li>world</li>
-          <li>hello</li>
-          <li>world</li>
+          <li>Mon-Thurs: <b>10-8 (EST)</b></li>
+          <li>Fri-Sun: <b>9-5 (EST)</b></li>
+          <li>Closed on statutory holidays </li>
         </ul>
       </div>
 
       <div class="three columns">
         <ul>
-          <h4>BLAH</h4>
-          <li>hello</li>
-          <li>world</li>
-          <li>hello</li>
-          <li>world</li>
-          <li>hello</li>
-          <li>world</li>
+          <h4>Contact</h4>
+          <a href="mailto:admin@clickmd.ca">admin@clickmd.ca</a>
         </ul>
       </div>
     </div>

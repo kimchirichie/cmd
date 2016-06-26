@@ -9,14 +9,13 @@
     
     <div class="section faq-page">
       <div class="container">
-        <img class="logo animated slideInDown" src="/images/home-slide-2.jpg"/>
-        <h2 class="Section-heading">FAQ's</h2>
+        <img class="logo animated fadeIn" src="/images/home-slide-2.jpg" style="margin-bottom:100px"/>
 
         <h4 class ="questions">If I have a family doctor, will they mind if I use clickMD?</h4>
         <p>Unlike going to regular walk-in clinics, your doctor will not be penalized if you use clickMD.</p>
 
-        <h4 class ="questions hideme">How much does a consultation cost?</h4>
-        <p class="hideme">The cost for service is $59.00 per issue. You do not pay HST.</p>
+        <h4 class ="questions">How much does a consultation cost?</h4>
+        <p>The cost for service is $59.00 per issue. You do not pay HST.</p>
 
         <h4 class ="questions hideme">What types of problems can you help me with?</h4>
         <p class="hideme">Simple primary healthcare issues that do not require an in-depth physical examination in person. Examples could include colds, rashes, allergies, mild anxiety, childcare advice, second opinions on bloodwork, x-rays, etc...</p>

@@ -443,6 +443,24 @@ html{
   float: left;
   margin-bottom: 0;
 }
+
+.footer-items {
+  text-align:left;
+}
+
+.footer-items li {
+  list-style-type: none;
+}
+
+.footer-items a {
+  text-decoration: none;
+}
+
+.footer-items a:hover {
+  color:blue;
+}
+
+
 @media (max-width: 750px) {
    .footer-item {
     width: 100%;
