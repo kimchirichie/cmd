@@ -9,7 +9,8 @@
     
     <div class="section faq-page">
       <div class="container">
-        <img class="logo animated fadeIn" src="/images/home-slide-2.jpg" style="margin-bottom:100px"/>
+        <img class="logo animated fadeIn" src="/images/home-slide-2.jpg"/>
+
 
         <h4 class ="questions">If I have a family doctor, will they mind if I use clickMD?</h4>
         <p>Unlike going to regular walk-in clinics, your doctor will not be penalized if you use clickMD.</p>
