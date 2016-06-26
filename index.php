@@ -53,12 +53,12 @@
     <div class="container">
       <div class="row">
         <div class="one-half column">
-          <h2>See your doctor at home</h2>
-          <p>Living a busy life? Balance your priorities? What if someone gets sick? You could get in a car with the bad weather just to sit in a waiting room for hours with full of other sick people or you can log into clickMD or you can see a doctor face to face in the comfort of your own home.</p>
+          <h2 class="hideme">See your doctor at home</h2>
+          <p class="hideme">Living a busy life? Balance your priorities? What if someone gets sick? You could get in a car with the bad weather just to sit in a waiting room for hours with full of other sick people or you can log into clickMD or you can see a doctor face to face in the comfort of your own home.</p>
         </div>
         
         <div class="one-half column">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/gnmpUXM3-Rs" frameborder="0" allowfullscreen></iframe>
+          <iframe class="hideme" width="560" height="315" src="https://www.youtube.com/embed/gnmpUXM3-Rs" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -66,10 +66,10 @@
 
   <div class="section faq">
     <div class="container">
-      <h1>FAQ:</h1>
-      <h2 id="faq-question"></h2>
-      <p id="faq-answer"></p>
-      <a class="button button-primary" href="/faq.php">See FAQ</a>
+      <h1 class="hideme">FAQ:</h1>
+      <h2 id="faq-question" class="hideme"></h2>
+      <p id="faq-answer" class="hideme"></p>
+      <a class="button button-primary hideme" href="/faq.php">See FAQ</a>
     </div>
   </div>
 

@@ -165,9 +165,7 @@
     top: -12rem;
     max-height: 472px;
   }
-  .categories {
-    padding: 15rem 0 8rem;
-  }
+
 }
 
 /* Bigger than 1000 */
@@ -506,8 +504,12 @@
   text-decoration: none;
 }
 
+#email {
+  text-decoration: none;
+}
+
 .footer-items a:hover {
-  color:blue;
+  color:grey;
 }
 
 
@@ -567,16 +569,8 @@
 }
 
 .faq {
+  padding:100px;
   text-align: left;
-}
-
-
-.faq-page{
-  text-align: center;
-
-}
-.faq-page .logo {
-  right: 0;
 }
 
 .warning {
@@ -613,3 +607,8 @@
 
 }
 
+.video {
+  text-align: left;
+  background: url(/images/medical_background.jpg);
+  background-size: cover;
+}
