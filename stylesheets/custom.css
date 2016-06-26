@@ -88,12 +88,12 @@
 }
 
 .footer{
-  color: black;
-  background-color:#dde1e2;  
+  color: white;
+  background-color:#3D3C45;  
 }
 
 .footer a {
-  color: black;
+  color: white;
 }
 
 /* Bigger than 550 */
@@ -223,6 +223,7 @@
   .app {
     text-align: center;
     background:#ECF9FF;
+    padding-bottom: 5%;
   }
 
   .app .container {
@@ -399,6 +400,7 @@
   .app {
     text-align: center;
     background:#ECF9FF;
+    padding-bottom: 5%;
   }
 
   .video {

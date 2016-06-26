@@ -49,20 +49,17 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section video">
     <div class="container">
       <div class="row">
-      <div class="one-half column">
-        <h2>Lorem ipsom</h2>
-        <p>
-          Lorem ipsom 
-          Lorem ipsom 
-          Lorem ipsom 
-        </p>
-      </div>
-      
-      <div class="one-half column">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/gnmpUXM3-Rs" frameborder="0" allowfullscreen></iframe>
+        <div class="one-half column">
+          <h2>See your doctor at home</h2>
+          <p>Living a busy life? Balance your priorities? What if someone gets sick? You could get in a car with the bad weather just to sit in a waiting room for hours with full of other sick people or you can log into clickMD or you can see a doctor face to face in the comfort of your own home.</p>
+        </div>
+        
+        <div class="one-half column">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/gnmpUXM3-Rs" frameborder="0" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
   </div>
@@ -77,6 +74,7 @@
   </div>
 
   <div class="app">
+    <h4>Download the app today!</h4>
     <a href="http://app.appsflyer.com/id591981144?pid=SmartBanner&amp;c=mobileweb">
       <img class="img-responsive" src="/images/apple.png">
     </a>

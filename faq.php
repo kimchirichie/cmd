@@ -7,10 +7,10 @@
   <body>
     <?php include "modules/navbar.php"; ?>
     
-    <div class="section faq-page">
-      <div class="container">
-        <img class="logo animated fadeIn" src="/images/home-slide-2.jpg"/>
+    <div class="faq-page">
 
+      <img class="hs animated fadeIn" src="/images/home-slide-2.jpg"/>
+      <div class="container faq-list"> 
 
         <h4 class ="questions">If I have a family doctor, will they mind if I use clickMD?</h4>
         <p>Unlike going to regular walk-in clinics, your doctor will not be penalized if you use clickMD.</p>
