@@ -14,7 +14,7 @@
 
   <?php include "modules/navbar.php"; ?>
 
-  <div class="section hero">
+  <div class="hero section">
     <div class="container top">
       <div class="row">
         <div class="two-thirds column animated fadeIn">
@@ -49,22 +49,23 @@
     </div>
   </div>
 
-  <div class="section">
-    <div class="container">
-      <div class="row">
-      <div class="one-half column">
-        <h2>Lorem ipsom</h2>
-        <p>
-          Lorem ipsom 
-          Lorem ipsom 
-          Lorem ipsom 
-        </p>
+  <div class="section video">
+      <div class="container">
+        <div class="row">
+          <div class="one-half column">
+            <h2>Lorem ipsom</h2>
+            <p>
+              Lorem ipsom 
+              Lorem ipsom 
+              Lorem ipsom 
+            </p>
+          </div>
+          
+          <div class="one-half column">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gnmpUXM3-Rs" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
-      
-      <div class="one-half column">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/gnmpUXM3-Rs" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
   </div>
 
   <div class="section faq">
@@ -77,12 +78,14 @@
   </div>
 
   <div class="app">
-    <a href="http://app.appsflyer.com/id591981144?pid=SmartBanner&amp;c=mobileweb">
-      <img class="img-responsive" src="/images/apple.png">
-    </a>
-    <a href="http://app.appsflyer.com/com.doctorondemand.android.patient?pid=SmartBanner&amp;c=MobileWeb">
-      <img class="img-responsive" src="/images/google.png">
-    </a>
+    <div class="container">
+      <a href="http://app.appsflyer.com/id591981144?pid=SmartBanner&amp;c=mobileweb">
+        <img class="img-responsive" src="/images/apple.png">
+      </a>
+      <a href="http://app.appsflyer.com/com.doctorondemand.android.patient?pid=SmartBanner&amp;c=MobileWeb">
+        <img class="img-responsive" src="/images/google.png">
+      </a>
+    </div>
   </div>
 
                 

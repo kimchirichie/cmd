@@ -7,9 +7,11 @@
   <body>
     <?php include "modules/navbar.php"; ?>
     
-    <div class="section faq-page">
-      <div class="container">
-        <img class="logo animated slideInDown" src="/images/home-slide-2.jpg"/>
+    <div class="faq-page">
+
+      <img class="hs animated fadeIn" src="/images/home-slide-2.jpg"/>
+      <div class="container faq-list">
+        
         <h2 class="Section-heading">FAQ's</h2>
 
         <h4 class ="questions">If I have a family doctor, will they mind if I use clickMD?</h4>

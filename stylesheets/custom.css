@@ -96,9 +96,6 @@
   color: black;
 }
 
-html{
-  background-color:#69C9E4;  
-}
 /* Bigger than 550 */
 @media (min-width: 550px) {
 
@@ -142,6 +139,7 @@ html{
 
 /* Bigger than 750 */
 @media (min-width: 750px) {
+
   .hero {
     height: 190px;
   }
@@ -209,12 +207,34 @@ html{
     min-height: 65px;
   }
 
+  iframe {
+    width: auto;
+  }
+
+  .video {
+    background: #add8e6;
+  }
+
+  .faq-list {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .app {
+    text-align: center;
+    background:#ECF9FF;
+  }
+
+  .app .container {
+    width: 50%;
+  }
+
   .navbar + .docs-section {
     border-top-width: 0; }
   .navbar,
   .navbar-spacer {
     display: block;
-    position:absolute;
+    position: static;
     width: 100%;
     height: 6.5rem;
     background: #fff;
@@ -308,10 +328,19 @@ html{
 
 .faq-page{
   text-align: center;
-
 }
 .faq-page .logo {
   right: 0;
+}
+
+.hs {
+  width: 60%;
+  margin-top:5%;
+}
+
+.faq-page .container {
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
 }
 
 .warning {
@@ -367,12 +396,31 @@ html{
     min-height: 65px;
   }
 
+  .app {
+    text-align: center;
+    background:#ECF9FF;
+  }
+
+  .video {
+    background:#add8e6;
+  }
+
+  .hs {
+    width: 60%;
+    margin-top: 5%;
+  }
+
+  .faq-list {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
   .navbar + .docs-section {
     border-top-width: 0; }
   .navbar,
   .navbar-spacer {
     display: block;
-    position:absolute;
+    position: static;
     width: 100%;
     height: 6.5rem;
     background: #fff;
@@ -544,3 +592,4 @@ html{
   width: 180px;
 
 }
+
