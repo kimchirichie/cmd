@@ -22,9 +22,6 @@
           <h4 class="hero-heading">Quick and convenient access to licensed doctors, on your computer or mobile device.</h4>
           <a class="button button-primary" href="/seeDoctor.php">See a Doctor</a>
         </div>
-        <div class="one-third column phones">
-          <img class="phone animated slideInUp" src="/images/iphone.png">
-        </div>
       </div>
     </div>
   </div>

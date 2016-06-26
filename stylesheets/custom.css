@@ -29,7 +29,6 @@
 
 /* Values */
 .values {
-  background-image: url('/images/home-slide.jpg');
   background-size: cover;
   color: black;
   padding-bottom: 5rem;
@@ -55,7 +54,6 @@
 
 /* Categories */
 .categories {
-  background-image: url('/images/home-slide.jpg');
   background-size: cover;
   color: black;
 }
@@ -127,7 +125,8 @@ html{
     padding-bottom: 12rem;
     text-align: left;
     height: 165px;
-    background: #ECF9FF;
+    background-image: url('/images/home-slide.jpg');
+    background-size: cover;
   }
   .phone {
     position: absolute;
