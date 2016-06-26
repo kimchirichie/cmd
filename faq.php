@@ -9,7 +9,7 @@
     
     <div class="section faq-page">
       <div class="container">
-        <img class="logo animated slideInLeft" src="/images/logo.png"/>
+        <img class="logo animated slideInLeft" src="/images/logo.svg"/>
         <h2 class="Section-heading">FAQ's</h2>
 
         <h4 class ="questions">If I have a family doctor, will they mind if I use clickMD?</h4>

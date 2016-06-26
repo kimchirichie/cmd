@@ -18,8 +18,8 @@
     <div class="container top">
       <div class="row">
         <div class="two-thirds column animated fadeInLeft">
-          <img class="logo" src="/images/logo.png"/>
-          <h4 class="hero-heading">Quick and Convenient Access to Licensed Physicians, in Your Pocket</h4>
+          <img class="logo" src="/images/logo.svg"/>
+          <h4 class="hero-heading">Quick and convenient access to licensed doctors, on your computer or mobile device.</h4>
           <a class="button button-primary" href="/seeDoctor.php">See a Doctor</a>
         </div>
         <div class="one-third column phones">
