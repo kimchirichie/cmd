@@ -52,13 +52,14 @@
   <div class="section video">
     <div class="container">
       <div class="row">
-        <div class="one-half column">
-          <h2 class="hideme">See your doctor at home</h2>
-          <p class="hideme">Living a busy life? Balance your priorities? What if someone gets sick? You could get in a car with the bad weather just to sit in a waiting room for hours with full of other sick people or you can log into clickMD or you can see a doctor face to face in the comfort of your own home.</p>
+        <div class="one-third column">
         </div>
         
         <div class="one-half column">
           <iframe class="hideme" width="560" height="315" src="https://www.youtube.com/embed/gnmpUXM3-Rs" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="one-third column">
         </div>
       </div>
     </div>
@@ -75,7 +76,7 @@
 
   <div class="app">
     <h4>Download the app today!</h4>
-    <div class="container">
+    <div class="container apps">
       <a href="#">
         <img class="img-responsive" src="/images/apple.png">
       </a>

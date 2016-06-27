@@ -386,6 +386,10 @@
   padding: 20px;
 }
 
+.apps {
+  padding:0;
+}
+
 }
 
 @media (min-width: 750px) {
@@ -496,22 +500,7 @@
   text-align:left;
 }
 
-.footer-items li {
-  list-style-type: none;
 }
-
-.footer-items a {
-  text-decoration: none;
-}
-
-#email {
-  text-decoration: none;
-}
-
-.footer-items a:hover {
-  color:grey;
-}
-
 
 @media (max-width: 750px) {
    .footer-item {
@@ -569,7 +558,7 @@
 }
 
 .faq {
-  padding:100px;
+  padding:100px 0;
   text-align: left;
 }
 
@@ -608,7 +597,25 @@
 }
 
 .video {
+  color:white;
   text-align: left;
-  background: url(/images/medical_background.jpg);
+  background-color: #3D3C45;
   background-size: cover;
+}
+
+
+.footer-items li {
+  list-style-type: none;
+}
+
+.footer-items a {
+  text-decoration: none;
+}
+
+#email {
+  text-decoration: none;
+}
+
+.footer-items a:hover {
+  color:grey;
 }
