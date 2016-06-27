@@ -75,12 +75,14 @@
 
   <div class="app">
     <h4>Download the app today!</h4>
-    <a href="http://app.appsflyer.com/id591981144?pid=SmartBanner&amp;c=mobileweb">
-      <img class="img-responsive" src="/images/apple.png">
-    </a>
-    <a href="http://app.appsflyer.com/com.doctorondemand.android.patient?pid=SmartBanner&amp;c=MobileWeb">
-      <img class="img-responsive" src="/images/google.png">
-    </a>
+    <div class="container">
+      <a href="#">
+        <img class="img-responsive" src="/images/apple.png">
+      </a>
+      <a href="#">
+        <img class="img-responsive" src="/images/google.png">
+      </a>
+    </div>
   </div>
 
                 
