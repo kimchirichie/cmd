@@ -18,7 +18,7 @@
     <div class="container top">
       <div class="row">
         <div class="two-thirds column animated fadeIn">
-          <img class="logo" src="/images/logo.svg"/>
+          <img class="logo" src="/images/logo.png"/>
           <h4 class="hero-heading">Quick and convenient access to licensed doctors, on your computer or mobile device.</h4>
           <a class="button button-primary" href="/seeDoctor.php">See a Doctor</a>
         </div>
@@ -50,18 +50,8 @@
   </div>
 
   <div class="section video">
-    <div class="container">
-      <div class="row">
-        <div class="one-third column">
-        </div>
-        
-        <div class="one-half column">
-          <iframe class="hideme" width="560" height="315" src="https://www.youtube.com/embed/gnmpUXM3-Rs" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="one-third column">
-        </div>
-      </div>
+    <div class="container" style="text-align:center;">
+      <iframe class="hideme" width="560" height="315" src="https://www.youtube.com/embed/gnmpUXM3-Rs" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 
