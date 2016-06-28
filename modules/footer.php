@@ -24,13 +24,13 @@
       <div class="four columns">
         <h4>Mission Statement</h4>
         <ul>
-          <li>Lack of access to health care providers in Ontario is a growing problem. The average wait time to see a doctor is three weeks. Our telemedicine service can not only help patients, but relive the burden on walk-in clinics.</li>
+          <li>Lack of access to health care providers in Ontario is a growing problem. The average wait time to see a doctor is three weeks. Our telemedicine service can not only help patients, but relieve the burden on walk-in clinics as well.</li>
         </ul>
       </div>
     </div>
 
     <a id="email" href="mailto:admin@clickmd.ca">admin@clickmd.ca</a>
-    <h6><b>&copy; 2015 clickMD. All rights reserved</b></h6>
+    <h6><b>&copy; 2015 clickMD. All rights reserved.</b></h6>
     <span class="disclaimer">clickMD uses a secure video conferencing platform that is PHIPA (Personal Health Information Protection Act)-compliant. All medical information is stored in an approved and secure electronic medical record system only. No personal information will be shared. Medical information will only be accessed as part of the provision of medical services to patients and/or their legal guardians.</span>
 
   </div>
